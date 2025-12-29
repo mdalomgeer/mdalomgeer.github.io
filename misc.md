@@ -9,31 +9,6 @@ Outside of work, I spend time on activities that help me stay active, curious, a
 
 Reading is a consistent part of my routine. My interests include history, fiction, historical fiction, detective fiction, and public sociology. I keep a yearly list of books I enjoyed. The list reflects personal interests rather than formal evaluation and helps me track how my reading evolves over time.
 
-### Places I Have Visited
-
-I enjoy traveling and exploring places with strong cultural, historical, and urban character. Below is a snapshot of places I have visited over the years.
-
-**2015**
-
-• India: Kolkata, Agra, Delhi, Shimla, Manali
-
-**2019**
-
-• Japan: Osaka, Kyoto, Namba, Nara, Kobe
-
-**2022**
-
-• United States:
-  - Maryland
-  - Pennsylvania
-  - New Jersey
-  - West Virginia
-  - New York and New York City
-  - Washington DC
-  - Virginia
-  - Florida: Miami, Key West
-  - Delaware
-
 ### Books I enjoyed
 
 These books align with classic literature, psychological depth, moral inquiry, history, and intellectually driven thrillers.
@@ -80,5 +55,39 @@ These books align with classic literature, psychological depth, moral inquiry, h
 • The Stranger by Albert Camus
 
 • Blindness by José Saramago
+
+</details>
+
+### Places I Have Visited
+
+I enjoy traveling and exploring places with strong cultural, historical, and urban character. Below is a snapshot of places I have visited over the years.
+
+<details>
+<summary><strong>2015</strong></summary>
+
+• India: Kolkata, Agra, Delhi, Shimla, Manali
+
+</details>
+
+<details>
+<summary><strong>2019</strong></summary>
+
+• Japan: Osaka, Kyoto, Namba, Nara, Kobe
+
+</details>
+
+<details>
+<summary><strong>2022</strong></summary>
+
+• United States:
+  - Maryland
+  - Pennsylvania
+  - New Jersey
+  - West Virginia
+  - New York and New York City
+  - Washington DC
+  - Virginia
+  - Florida: Miami, Key West
+  - Delaware
 
 </details>
