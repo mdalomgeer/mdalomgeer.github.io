@@ -127,5 +127,51 @@ hr {
 	}
 }
 
+/* Footer */
+footer p,
+.container p:last-child {
+    a {
+        color: $accent !important;
+    }
+    small {
+        color: $accent;
+    }
+}
+
+/* Details/Summary Dropdowns */
+details {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px;
+    list-style: none;
+    
+    &::-webkit-details-marker {
+        display: none;
+    }
+    
+    &::before {
+        content: "▶ ";
+        display: inline-block;
+        margin-right: 5px;
+        transition: transform 0.2s;
+    }
+}
+
+details[open] summary::before {
+    transform: rotate(90deg);
+}
+
+details ul {
+    margin: 10px 0 0 20px;
+    padding-left: 20px;
+}
+
 @import "typography";
 @import "tables";

@@ -87,7 +87,7 @@
                     <p style="text-align: center; margin-bottom: 10px">
                     {% if site.footer_links %}
                         {% for link in site.footer_links %}
-                            <a href="{{ link.url }}" style="color: black"><small>{{ link.name }}</small></a>
+                            <a href="{{ link.url }}"><small>{{ link.name }}</small></a>
                             {% if forloop.last == false %}
                                 <small> / </small>
                             {% endif %}
