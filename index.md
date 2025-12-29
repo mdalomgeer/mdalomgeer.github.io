@@ -6,9 +6,9 @@ layout: default
 
 <img class="profile-picture" src="Headshot.jpg">
 
-Hi! I am a junior year student of B.E. Computer Science at Birla Institute of Technology and Science, Pilani.
+My name is Md Alomgeer Hussein. I am a PhD student in the Information Systems department at the University of Maryland, Baltimore County. My research focuses on natural language processing and human computer interaction, with an emphasis on health-related applications. I study how people interact with AI systems in sensitive, high-stakes contexts such as healthcare, and how language-driven systems shape understanding, trust, and decision making. I earned my BSc and MSc in Electrical and Electronic Engineering from the University of Dhaka, Bangladesh. This training built my foundation in analytical thinking, systems design, and quantitative methods. I also earned a second master’s degree in Information Systems from the University of Maryland, Baltimore County in 2024.
 
-My CV is [here]([https://github.com/bk2dcradle/researcher](https://drive.google.com/file/d/16zBXheO2_LjZ3ub7RNlWh4D1Hz3DYDLM/view?usp=sharing))
+My CV is [here]([[https://github.com/bk2dcradle/researcher](https://drive.google.com/file/d/16zBXheO2_LjZ3ub7RNlWh4D1Hz3DYDLM/view?usp=sharing)]) (Last update: Dec 2025).
 
 ## Research Interest
 
