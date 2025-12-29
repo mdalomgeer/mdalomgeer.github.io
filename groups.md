@@ -5,6 +5,11 @@ permalink: /groups/
 
 ## Group
 
+### Research Mentor, AI/ML Research, UMBC  
+*2023–Present*
+
+Mentoring both undergraduate and graduate students — supervised a senior-level student on dataset analysis and academic writing, and currently guiding a Master's student on LLM-based research design, data analysis, and manuscript preparation.
+
 ### PhD student
 
 **Raisa Ntemenyi Nkweteyim**
