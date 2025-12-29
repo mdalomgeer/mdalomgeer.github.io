@@ -24,40 +24,40 @@ I like reading, especially on history, fiction (historical fiction and detective
 <details>
 <summary><strong>2025</strong></summary>
 
-• The Book of Goose, Yiyun Li
+The Book of Goose, Yiyun Li
 
-• Freedom, Jonathan Franzen
+Freedom, Jonathan Franzen
 
-• Stoner, John Williams
+Stoner, John Williams
 
 </details>
 
 <details>
 <summary><strong>2024</strong></summary>
 
-• Povery, by America, Matthew Desmond
+Povery, by America, Matthew Desmond
 
-• Small Things Like These, Claire Keegan
+Small Things Like These, Claire Keegan
 
-• My Year of Rest and Relaxation, Ottessa Moshfegh
+My Year of Rest and Relaxation, Ottessa Moshfegh
 
-• Secret History, Donna Tartt
+Secret History, Donna Tartt
 
-• Killers of the Flower Moon, David Grann
+Killers of the Flower Moon, David Grann
 
 </details>
 
 <details>
 <summary><strong>2023</strong></summary>
 
-• Une Femme (A Woman's Story), Annie Ernaux
+Une Femme (A Woman's Story), Annie Ernaux
 
-• La Place (A Man's Place), Annie Ernaux
+La Place (A Man's Place), Annie Ernaux
 
-• Work, Consumerism, and the new Poor, Zygmunt Bauman
+Work, Consumerism, and the new Poor, Zygmunt Bauman
 
-• 我的母亲做保洁，张小满
+我的母亲做保洁，张小满
 
-• Minor Feelings, Cathy Park Hong
+Minor Feelings, Cathy Park Hong
 
 </details>
