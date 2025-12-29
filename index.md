@@ -9,7 +9,7 @@ description: "PhD student in Information Systems at UMBC, working on applied AI 
 
 I am a PhD student in Information Systems at the University of Maryland, Baltimore County, working on applied AI research at the intersection of NLP, HCI, and healthcare. I build and evaluate large language model–based systems for real-world health applications, with an emphasis on safety, clarity, and user trust. My work includes LLM evaluation, agent-based workflows, and human-centered assessment of AI outputs in high-risk domains. I bring a strong engineering foundation from my BSc and MSc in Electrical and Electronic Engineering from the University of Dhaka, along with advanced training in Information Systems from UMBC, where I earned a second master's degree in 2024. I enjoy translating research ideas into robust, measurable systems grounded in real user needs.
 
-My CV is [here](/Resume-Alomgeer.pdf) (Last update: Dec 2025).
+My CV is [here](/Resume-Alomgeer-2025.pdf) (Last update: Dec 2025).
 
 ## Research Interest
 
