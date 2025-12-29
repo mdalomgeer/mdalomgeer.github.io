@@ -11,8 +11,6 @@ Reading is a consistent part of my routine. My interests include history, fictio
 
 ### Books I enjoyed
 
-These books align with classic literature, psychological depth, moral inquiry, history, and intellectually driven thrillers.
-
 <details>
 <summary><strong>2025</strong></summary>
 
@@ -60,7 +58,7 @@ These books align with classic literature, psychological depth, moral inquiry, h
 
 ### Places I Have Visited
 
-I enjoy traveling and exploring places with strong cultural, historical, and urban character. Below is a snapshot of places I have visited over the years.
+I also enjoy traveling and exploring places with strong cultural, historical, and urban character. Below is a snapshot of places I have visited over the years.
 
 <details>
 <summary><strong>2015</strong></summary>
