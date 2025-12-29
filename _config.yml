@@ -8,8 +8,17 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/ankitsultana"
+footer_url: "https://github.com/mdalomgeer"
 footer_text: "Page design by Md Alomgeer Hussein"
+
+
+footer_links:
+  - name: "Email"
+    url: "mailto:mdalomh1@umbc.edu"
+  - name: "Scholar"
+    url: "https://scholar.google.com/citations?user=bftKphkAAAAJ&hl=en&authuser=2"
+  - name: "Source"
+    url: "https://github.com/mdalomgeer/mdalomgeer.github.io"
 
 sass:
     style: compressed
@@ -17,15 +26,15 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
+   link: "/"
  - name: "Publications"
-   link: "resume.pdf"
+   link: "/Publications/"
  - name: "Projects"
-   link: "contact"
- - name: "Teachings"
-   link: "resume.pdf"
+   link: "/Projects/"
+ - name: "Teaching"
+   link: "/Teaching/"
  - name: "Groups"
-   link: "contact"
+   link: "/Groups/"
  - name: "Misc"
-   link: "contact"
+   link: "/Misc/"
    
