@@ -21,7 +21,8 @@ One of my life goals is to open a small knitting studio, where people can learn 
 
 I like reading, especially on history, fiction (historical fiction and detective fiction particularly), and public sociology. I try to maintain a list of the books I liked every year. It is a highly subjective and personal list.
 
-### 2025
+<details>
+<summary><strong>2025</strong></summary>
 
 • The Book of Goose, Yiyun Li
 
@@ -29,7 +30,10 @@ I like reading, especially on history, fiction (historical fiction and detective
 
 • Stoner, John Williams
 
-### 2024
+</details>
+
+<details>
+<summary><strong>2024</strong></summary>
 
 • Povery, by America, Matthew Desmond
 
@@ -41,7 +45,10 @@ I like reading, especially on history, fiction (historical fiction and detective
 
 • Killers of the Flower Moon, David Grann
 
-### 2023
+</details>
+
+<details>
+<summary><strong>2023</strong></summary>
 
 • Une Femme (A Woman's Story), Annie Ernaux
 
@@ -52,3 +59,5 @@ I like reading, especially on history, fiction (historical fiction and detective
 • 我的母亲做保洁，张小满
 
 • Minor Feelings, Cathy Park Hong
+
+</details>
