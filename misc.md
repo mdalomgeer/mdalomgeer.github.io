@@ -21,33 +21,34 @@ One of my life goals is to open a small knitting studio, where people can learn 
 
 I like reading, especially on history, fiction (historical fiction and detective fiction particularly), and public sociology. I try to maintain a list of the books I liked every year. It is a highly subjective and personal list.
 
-<details>
-<summary><strong>2025</strong></summary>
-<ul>
-<li>The Book of Goose, Yiyun Li</li>
-<li>Freedom, Jonathan Franzen</li>
-<li>Stoner, John Williams</li>
-</ul>
-</details>
+### 2025
 
-<details>
-<summary><strong>2024</strong></summary>
-<ul>
-<li>Povery, by America, Matthew Desmond</li>
-<li>Small Things Like These, Claire Keegan</li>
-<li>My Year of Rest and Relaxation, Ottessa Moshfegh</li>
-<li>Secret History, Donna Tartt</li>
-<li>Killers of the Flower Moon, David Grann</li>
-</ul>
-</details>
+• The Book of Goose, Yiyun Li
 
-<details>
-<summary><strong>2023</strong></summary>
-<ul>
-<li>Une Femme (A Woman's Story), Annie Ernaux</li>
-<li>La Place (A Man's Place), Annie Ernaux</li>
-<li>Work, Consumerism, and the new Poor, Zygmunt Bauman</li>
-<li>我的母亲做保洁，张小满</li>
-<li>Minor Feelings, Cathy Park Hong</li>
-</ul>
-</details>
+• Freedom, Jonathan Franzen
+
+• Stoner, John Williams
+
+### 2024
+
+• Povery, by America, Matthew Desmond
+
+• Small Things Like These, Claire Keegan
+
+• My Year of Rest and Relaxation, Ottessa Moshfegh
+
+• Secret History, Donna Tartt
+
+• Killers of the Flower Moon, David Grann
+
+### 2023
+
+• Une Femme (A Woman's Story), Annie Ernaux
+
+• La Place (A Man's Place), Annie Ernaux
+
+• Work, Consumerism, and the new Poor, Zygmunt Bauman
+
+• 我的母亲做保洁，张小满
+
+• Minor Feelings, Cathy Park Hong
