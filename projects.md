@@ -5,6 +5,8 @@ permalink: /projects/
 
 ## Projects
 
+<img src="/project.jpeg" alt="Projects" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+
 **QnA: An LLM-Powered Conversational Agent (CA) for Supporting Colorectal Cancer Knowledge**  
 *Fall 2024*
 
