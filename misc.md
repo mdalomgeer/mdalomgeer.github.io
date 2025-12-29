@@ -5,13 +5,9 @@ permalink: /misc/
 
 ## Misc
 
-Outside of my academic work, I value creative and physical activities that help me reset and stay grounded.
+Outside of work, I spend time on activities that help me stay active, curious, and socially engaged. I enjoy playing football and cricket, running, cycling, watching films, and reading.
 
-I enjoy top rope climbing, running, knitting, crocheting, and urban sketching. These practices help me balance analytical work with hands-on creativity.
-
-One long-term personal goal is to open a small knitting studio. I want it to be a shared space where people learn to knit, work together, exchange patterns, and build community through making.
-
-Reading plays a central role in my life. My interests lean toward history, fiction, historical fiction, detective fiction, and public sociology. I keep a yearly list of books I enjoyed. The list reflects personal taste rather than any formal ranking.
+Reading is a consistent part of my routine. My interests include history, fiction, historical fiction, detective fiction, and public sociology. I keep a yearly list of books I enjoyed. The list reflects personal interests rather than formal evaluation and helps me track how my reading evolves over time.
 
 ### Books I enjoyed
 
