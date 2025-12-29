@@ -5,59 +5,59 @@ permalink: /misc/
 
 ## Misc
 
-Outside of work, I enjoy:
+Outside of my academic work, I value creative and physical activities that help me reset and stay grounded.
 
-🧗🏼‍♀️ Top rope climbing
+I enjoy top rope climbing, running, knitting, crocheting, and urban sketching. These practices help me balance analytical work with hands-on creativity.
 
-🧶 Knitting and crocheting
+One long-term personal goal is to open a small knitting studio. I want it to be a shared space where people learn to knit, work together, exchange patterns, and build community through making.
 
-🏃🏻‍♀️ Running
+Reading plays a central role in my life. My interests lean toward history, fiction, historical fiction, detective fiction, and public sociology. I keep a yearly list of books I enjoyed. The list reflects personal taste rather than any formal ranking.
 
-🖋️ Urban sketching
+### Books I enjoyed
 
-📖 Reading
-
-One of my life goals is to open a small knitting studio, where people can learn how to knitt, knit together, and share knitting patterns.
-
-I like reading, especially on history, fiction (historical fiction and detective fiction particularly), and public sociology. I try to maintain a list of the books I liked every year. It is a highly subjective and personal list.
+These books align with classic literature, psychological depth, moral inquiry, history, and intellectually driven thrillers.
 
 <details>
 <summary><strong>2025</strong></summary>
 
-The Book of Goose, Yiyun Li
+The Silmarillion by J.R.R. Tolkien
 
-Freedom, Jonathan Franzen
+The Man Who Was Thursday by G.K. Chesterton
 
-Stoner, John Williams
+The Historian by Elizabeth Kostova
+
+Foucault's Pendulum by Umberto Eco
+
+The Da Vinci Code by Dan Brown
 
 </details>
 
 <details>
 <summary><strong>2024</strong></summary>
 
-Povery, by America, Matthew Desmond
+War and Peace by Leo Tolstoy
 
-Small Things Like These, Claire Keegan
+The Master and Margarita by Mikhail Bulgakov
 
-My Year of Rest and Relaxation, Ottessa Moshfegh
+The Shadow of the Wind by Carlos Ruiz Zafón
 
-Secret History, Donna Tartt
+A Gentleman in Moscow by Amor Towles
 
-Killers of the Flower Moon, David Grann
+The Name of the Rose by Umberto Eco
 
 </details>
 
 <details>
 <summary><strong>2023</strong></summary>
 
-Une Femme (A Woman's Story), Annie Ernaux
+Notes from Underground by Fyodor Dostoevsky
 
-La Place (A Man's Place), Annie Ernaux
+The Brothers Karamazov by Fyodor Dostoevsky
 
-Work, Consumerism, and the new Poor, Zygmunt Bauman
+The Death of Ivan Ilyich by Leo Tolstoy
 
-我的母亲做保洁，张小满
+The Stranger by Albert Camus
 
-Minor Feelings, Cathy Park Hong
+Blindness by José Saramago
 
 </details>
