@@ -75,7 +75,7 @@ I also enjoy traveling and exploring places with strong cultural, historical, an
 </details>
 
 <details>
-<summary><strong>2022</strong></summary>
+<summary><strong>2022 - present</strong></summary>
 
 • United States:
   - Maryland
