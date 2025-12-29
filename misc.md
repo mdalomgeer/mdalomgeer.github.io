@@ -16,44 +16,44 @@ These books align with classic literature, psychological depth, moral inquiry, h
 <details>
 <summary><strong>2025</strong></summary>
 
-The Silmarillion by J.R.R. Tolkien
+• The Silmarillion by J.R.R. Tolkien
 
-The Man Who Was Thursday by G.K. Chesterton
+• The Man Who Was Thursday by G.K. Chesterton
 
-The Historian by Elizabeth Kostova
+• The Historian by Elizabeth Kostova
 
-Foucault's Pendulum by Umberto Eco
+• Foucault's Pendulum by Umberto Eco
 
-The Da Vinci Code by Dan Brown
+• The Da Vinci Code by Dan Brown
 
 </details>
 
 <details>
 <summary><strong>2024</strong></summary>
 
-War and Peace by Leo Tolstoy
+• War and Peace by Leo Tolstoy
 
-The Master and Margarita by Mikhail Bulgakov
+• The Master and Margarita by Mikhail Bulgakov
 
-The Shadow of the Wind by Carlos Ruiz Zafón
+• The Shadow of the Wind by Carlos Ruiz Zafón
 
-A Gentleman in Moscow by Amor Towles
+• A Gentleman in Moscow by Amor Towles
 
-The Name of the Rose by Umberto Eco
+• The Name of the Rose by Umberto Eco
 
 </details>
 
 <details>
 <summary><strong>2023</strong></summary>
 
-Notes from Underground by Fyodor Dostoevsky
+• Notes from Underground by Fyodor Dostoevsky
 
-The Brothers Karamazov by Fyodor Dostoevsky
+• The Brothers Karamazov by Fyodor Dostoevsky
 
-The Death of Ivan Ilyich by Leo Tolstoy
+• The Death of Ivan Ilyich by Leo Tolstoy
 
-The Stranger by Albert Camus
+• The Stranger by Albert Camus
 
-Blindness by José Saramago
+• Blindness by José Saramago
 
 </details>
