@@ -1,5 +1,6 @@
 ---
 layout: default
+description: "PhD student in Information Systems at UMBC, working on applied AI research at the intersection of NLP, HCI, and healthcare."
 ---
 
 ## About Me
