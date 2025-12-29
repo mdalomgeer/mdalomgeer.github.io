@@ -5,6 +5,8 @@ permalink: /publications/
 
 ## Publications
 
+<img src="/publications.jpeg" alt="Publications" style="max-width: 100%; height: auto; margin-bottom: 20px;">
+
 **[C1]** Md Imranur Rahman Akib, Md Alomgeer Hussein, et al. From Code to Career: Assessing Competitive Programmers for Industry Placement.
 
 *2025 IEEE International Conference on Quantum Photonics, Artificial Intelligence, and Networking (QPAIN)*
