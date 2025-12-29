@@ -12,7 +12,7 @@ My CV is [here]([[https://github.com/bk2dcradle/researcher](https://drive.google
 
 ## Research Interest
 
-I am trained as a health informatics researcher working at the intersection of computational methods and patient-centered applications. My research integrates methodological and empirical inquiry, with a focus on language-driven AI systems in healthcare.
+As a PhD researcher in health informatics, my work bridges computational methods, informatics, and patient-centered applications. My research program integrates three complementary lines of inquiry.
 
 [1] Methodological: Advancing informatics and computational methods for analyzing and integrating heterogeneous health data. This includes large language models, LLMs as a Judge for systematic evaluation, agentic AI pipelines, and explainable approaches for assessing safety, quality, and alignment in health-related AI systems;
 
