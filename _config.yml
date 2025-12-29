@@ -9,7 +9,7 @@ tracking_id: #
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
+footer_text: "Page design by Md Alomgeer Hussein"
 
 sass:
     style: compressed
@@ -18,7 +18,14 @@ sass:
 nav:
  - name: "About"
    link: "/researcher/"
- - name: "Resume"
+ - name: "Publications"
    link: "resume.pdf"
- - name: "Contact"
+ - name: "Projects"
    link: "contact"
+ - name: "Teachings"
+   link: "resume.pdf"
+ - name: "Groups"
+   link: "contact"
+ - name: "Misc"
+   link: "contact"
+   
