@@ -14,9 +14,11 @@ My CV is [here]([[https://github.com/bk2dcradle/researcher](https://drive.google
 
 I am trained as a health informatics researcher working at the intersection of computational methods and patient-centered applications. My research integrates methodological and empirical inquiry, with a focus on language-driven AI systems in healthcare.
 
-[1]. Methodological: Advancing informatics and computational methods for analyzing and integrating heterogeneous health data. This includes large language models, LLMs as a Judge for systematic evaluation, agentic AI pipelines, and explainable approaches for assessing safety, quality, and alignment in health-related AI systems.
-[2]. Empirical: Applying data-driven methods to generate empirical evidence that informs clinical practice, patient care, and population health. My work evaluates AI-generated health information for readability, trust, emotional support, and decision support, with comparisons to human-generated content in real-world settings.
-[3]. Translational: Designing, implementing, and evaluating health information technologies and digital interventions that support health knowledge, patient self-management, and coordination among patients, clinicians, and healthcare stakeholders.
+[1] Methodological: Advancing informatics and computational methods for analyzing and integrating heterogeneous health data. This includes large language models, LLMs as a Judge for systematic evaluation, agentic AI pipelines, and explainable approaches for assessing safety, quality, and alignment in health-related AI systems;
+
+[2] Empirical: Applying data-driven methods to generate empirical evidence that informs clinical practice, patient care, and population health. My work evaluates AI-generated health information for readability, trust, emotional support, and decision support, with comparisons to human-generated content in real-world settings;
+
+[3] Translational: Designing, implementing, and evaluating health information technologies and digital interventions that support health knowledge, patient self-management, and coordination among patients, clinicians, and healthcare stakeholders.
 
 ## Typography
 
