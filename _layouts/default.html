@@ -85,6 +85,15 @@
                 {% if site.footer == true %}
                     <hr />
                     <p style="text-align: center; margin-bottom: 10px">
+                    {% if site.footer_links %}
+                        {% for link in site.footer_links %}
+                            <a href="{{ link.url }}" style="color: black"><small>{{ link.name }}</small></a>
+                            {% if forloop.last == false %}
+                                <small> / </small>
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    <br>
                     <a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
                     </p>
                 {% endif %}

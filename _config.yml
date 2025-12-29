@@ -1,6 +1,6 @@
-title: Researcher
-url: "https://ankitsultana.com"
-baseurl: "/researcher"
+title: Hussein
+url: "https://mdalomgeer.github.io"
+baseurl: ""
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -8,17 +8,33 @@ markdown: kramdown
 tracking_id: #
 
 footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
+footer_url: "https://github.com/mdalomgeer"
+footer_text: "Page design by Md Alomgeer Hussein"
+
+footer_links:
+  - name: "Email"
+    url: "mailto:your-email@example.com"
+  - name: "Scholar"
+    url: "https://scholar.google.com/citations?user=YOUR_ID"
+  - name: "Source"
+    url: "https://github.com/mdalomgeer/mdalomgeer.github.io"
 
 sass:
     style: compressed
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/researcher/"
- - name: "Resume"
-   link: "resume.pdf"
- - name: "Contact"
-   link: "contact"
+  - name: "About"
+    link: "/"
+  - name: "Publications"
+    link: "/publications/"
+  - name: "Projects"
+    link: "/projects/"
+  - name: "Teaching"
+    link: "/teaching/"
+  - name: "Groups"
+    link: "/groups/"
+  - name: "Misc"
+    link: "/misc/"
+  - name: "CV"
+    link: "/Resume-Alomgeer.pdf"
