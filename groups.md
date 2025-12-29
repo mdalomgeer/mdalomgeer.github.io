@@ -5,18 +5,7 @@ permalink: /groups/
 
 ## Group
 
-### Research Mentor, AI/ML Research, UMBC  
-*2023–Present*
-
-Mentoring both undergraduate and graduate students — supervised a senior-level student on dataset analysis and academic writing, and currently guiding a Master's student on LLM-based research design, data analysis, and manuscript preparation.
-
-### PhD student
-
-**Raisa Ntemenyi Nkweteyim**
-
-Research project: Analyzing the All of Us data to assess associations between modifiable risk factors that prohibit access to GLP-1 and impact on diabetes-related outcomes.
-
-### Masters
+### Masters Students
 
 **Rajmi Doshi**
 
@@ -26,11 +15,7 @@ Worked on: A Patient-centered Approach to Evaluating Large Language Model-genera
 
 • Comparing LLM responses to those from an online health community to assess alignment with patient support needs.
 
-**Rushali Sreedhar**
-
-**Sanika Bishnoi**
-
-**Yachi Jitendrabhai Patel**
+**Rushali Sreedhar, Sanika Bishnoi, Yachi Jitendrabhai Patel**
 
 Working on: Building a Framework and Toolkit for Effective Participatory AI Engagement in Hard-to-Reach Populations. Funded by: Google Society-Centered AI Grant
 
@@ -38,15 +23,7 @@ Working on: Building a Framework and Toolkit for Effective Participatory AI Enga
 
 • Collaborating with Baltimore community health organizations to enhance health literacy and address healthcare access disparities.
 
-**Vishesh Girish Shet**
-
-Research project: Using Large Language Models to characterize the stages and transition trajectors of an online vaping cessation community using the Stage of Change Theory.
-
-**Dhruv Naidu Alti**
-
-Research project: Using Large Language Models to extract patient-reported outcomes from an online vaping cessation community.
-
-### Undergrad
+### Undergrad Students
 
 **Austyn Nguyen**
 
