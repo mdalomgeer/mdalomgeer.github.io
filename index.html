@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #faf9f7; color: #1d1c1a; font-family: 'IBM Plex Sans', sans-serif; -webkit-font-smoothing: antialiased; }
+    * { box-sizing: border-box; }
+  </style>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 72 72'%3E%3Cpath d='M 14 58 L 32 14 L 38 14 L 38 58' fill='none' stroke='%2314606b' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M 38 38 L 58 38 M 58 14 L 58 58' fill='none' stroke='%231d1c1a' stroke-width='7' stroke-linecap='round'/%3E%3Cpath d='M 21 41 L 34 41' fill='none' stroke='%2314606b' stroke-width='7' stroke-linecap='round'/%3E%3C/svg%3E">
+</helmet>
+
+<div style="min-height:100vh; background:#faf9f7">
+
+  <!-- ===== Sticky nav ===== -->
+  <nav data-screen-label="Nav" style="position:sticky; top:0; z-index:50; background:rgba(250,249,247,0.92); backdrop-filter:blur(8px); border-bottom:1px solid #e7e5e0">
+    <div style="max-width:1080px; margin:0 auto; padding:0 28px; height:58px; display:flex; align-items:center; justify-content:space-between; gap:24px">
+      <a href="#top" style="font-family:'Source Serif 4', serif; font-weight:700; font-size:18px; color:#1d1c1a; text-decoration:none; display:flex; align-items:center; gap:10px">
+        <svg width="30" height="30" viewBox="0 0 72 72" style="flex:none" aria-label="AH">
+          <path d="M 14 58 L 32 14 L 38 14 L 38 58" fill="none" stroke="#14606b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+          <path d="M 38 38 L 58 38 M 58 14 L 58 58" fill="none" stroke="#1d1c1a" stroke-width="7" stroke-linecap="round"></path>
+          <path d="M 21 41 L 34 41" fill="none" stroke="#14606b" stroke-width="7" stroke-linecap="round"></path>
+        </svg>
+      </a>
+      <div style="display:flex; align-items:center; gap:22px; font-size:14px; font-weight:500">
+        <a href="#about" style="color:#4b4a45; text-decoration:none" style-hover="color:#14606b">About</a>
+        <a href="#experience" style="color:#4b4a45; text-decoration:none" style-hover="color:#14606b">Experience</a>
+        <a href="#news" style="color:#4b4a45; text-decoration:none" style-hover="color:#14606b">News</a>
+        <a href="#publications" style="color:#4b4a45; text-decoration:none" style-hover="color:#14606b">Publications</a>
+        <a href="#projects" style="color:#4b4a45; text-decoration:none" style-hover="color:#14606b">Projects</a>
+        <a href="#mentoring" style="color:#4b4a45; text-decoration:none" style-hover="color:#14606b">Mentoring</a>
+        <a href="#awards" style="color:#4b4a45; text-decoration:none" style-hover="color:#14606b">Awards</a>
+        <a href="assets/Md_Alomgeer_Hussein_CV.pdf" target="_blank" style="color:#ffffff; background:#14606b; text-decoration:none; padding:7px 16px; border-radius:6px; font-weight:600" style-hover="background:#0e4a53">Resume</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Hero ===== -->
+  <header id="top" data-screen-label="Hero" style="max-width:1080px; margin:0 auto; padding:64px 28px 48px; display:flex; flex-wrap:wrap; gap:48px; align-items:center">
+    <img src="assets/headshot.jpg" alt="Md Alomgeer Hussein" style="width:230px; height:230px; object-fit:cover; object-position:50% 20%; border-radius:14px; box-shadow:0 8px 28px rgba(20,96,107,0.18); flex:none">
+    <div style="flex:1; min-width:340px">
+      <h1 style="margin:0 0 6px; font-family:'Source Serif 4', serif; font-weight:700; font-size:46px; line-height:1.1; letter-spacing:-0.01em">Md Alomgeer Hussein</h1>
+      <p style="margin:0 0 14px; font-size:17px; color:#6b6963">Ph.D. Candidate, Information Systems &middot; <a href="https://umbc.edu" target="_blank" style="color:#14606b; text-decoration:none">UMBC</a></p>
+      <p style="margin:0 0 20px; font-size:16px; line-height:1.6; color:#37362f; text-align:justify; text-wrap:pretty"><strong>ML/AI researcher.</strong> I'm a Ph.D. candidate in Information Systems at UMBC, working in the Care Research Lab on Google (Society-Centered AI) and NIH/NIMHD funded projects. I make patient-centered LLMs more reliable through fine-tuning, agentic pipelines, and multi-dimensional evaluation spanning safety, empathy, and trust. My team's cascaded LLM pipeline earned <strong>1st place</strong> at the NLM/NIH-organized ArchEHR-QA 2026 shared task.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:10px; align-items:center">
+        <a href="assets/Md_Alomgeer_Hussein_CV.pdf" target="_blank" style="background:#14606b; color:#ffffff; text-decoration:none; padding:10px 20px; border-radius:7px; font-weight:600; font-size:14px" style-hover="background:#0e4a53">Download CV</a>
+        <a href="mailto:mdalomh1@umbc.edu" style="border:1.5px solid #14606b; color:#14606b; text-decoration:none; padding:9px 19px; border-radius:7px; font-weight:600; font-size:14px" style-hover="background:#eef4f4">mdalomh1@umbc.edu</a>
+      </div>
+      <div style="display:flex; gap:18px; margin-top:18px; font-size:13.5px; font-weight:500">
+        <a href="https://github.com/mdalomgeer" target="_blank" style="color:#6b6963; text-decoration:none; border-bottom:1px solid #d8d6d0" style-hover="color:#14606b">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=bftKphkAAAAJ&hl=en" target="_blank" style="color:#6b6963; text-decoration:none; border-bottom:1px solid #d8d6d0" style-hover="color:#14606b">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/alomgeer/" target="_blank" style="color:#6b6963; text-decoration:none; border-bottom:1px solid #d8d6d0" style-hover="color:#14606b">LinkedIn</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Availability banner ===== -->
+  <sc-if value="{{ showBanner }}" hint-placeholder-val="{{ true }}">
+    <div data-screen-label="Availability banner" style="background:#0f3d44">
+      <div style="max-width:1080px; margin:0 auto; padding:16px 28px; display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between">
+        <p style="margin:0; color:#e8f1f1; font-size:15px; line-height:1.5"><strong style="color:#ffffff">Graduating Spring 2027 &middot; No visa sponsorship needed &middot; actively seeking Research Scientist roles in NLP, Agentic AI &amp; Health Informatics.</strong> Please reach out if you have an opening.</p>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- ===== About / research themes ===== -->
+  <section id="about" data-screen-label="About" style="max-width:1080px; margin:0 auto; padding:64px 28px 8px">
+    <h2 style="margin:0 0 18px; font-family:'Source Serif 4', serif; font-size:28px; font-weight:700">About</h2>
+    <p style="margin:0 0 12px; font-size:16px; line-height:1.7; color:#37362f; text-align:justify; text-wrap:pretty">I'm a Ph.D. candidate in Information Systems at the <a href="https://umbc.edu" target="_blank" style="color:#14606b; text-decoration:none; border-bottom:1px solid #bcd4d6">University of Maryland, Baltimore County</a>. My research focuses on <strong>patient-centered AI</strong>: how people interact with large language models in high-stakes contexts like healthcare, and how AI-generated responses differ from human communication in safety, empathy, personalization, and trust.</p>
+    <p style="margin:0 0 12px; font-size:16px; line-height:1.7; color:#37362f; text-align:justify; text-wrap:pretty">My work combines NLP, human-centered AI, and health informatics. I build and analyze datasets from online health communities, comparing human responses with outputs from multiple LLMs: designing annotation frameworks, running qualitative and quantitative analyses, and evaluating model behavior with both computational metrics and human judgments. In the Care Research Lab I work on grant-funded projects from <strong>Google</strong> (Society-Centered AI) and <strong>NIH/NIMHD</strong>, and my team's cascaded LLM pipeline took <strong>1st place</strong> in Question Interpretation at the NLM/NIH-organized ArchEHR-QA 2026 shared task.</p>
+    <p style="margin:0 0 36px; font-size:16px; line-height:1.7; color:#37362f; text-align:justify; text-wrap:pretty">Currently: safety evaluation, empathy classification, and agent-based systems for improving AI responses in healthcare. My goal is AI that is not only technically strong but aligned with human needs in sensitive, real-world decision-making.</p>
+
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:18px">
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px">
+        <p style="margin:0 0 8px; font-family:'IBM Plex Mono', monospace; font-size:12px; color:#14606b; letter-spacing:0.06em; text-transform:uppercase">Patient-centered &amp; human-centered AI</p>
+        <p style="margin:0; font-size:14.5px; line-height:1.6; color:#4b4a45">Participatory AI that helps patients understand and use their medical records; conversational agents for consumer health questions.</p>
+      </div>
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px">
+        <p style="margin:0 0 8px; font-family:'IBM Plex Mono', monospace; font-size:12px; color:#14606b; letter-spacing:0.06em; text-transform:uppercase">LLM evaluation, safety &amp; trust</p>
+        <p style="margin:0; font-size:14.5px; line-height:1.6; color:#4b4a45">Multi-dimensional evaluation of LLM vs. human answers (safety, empathy, personalization, transparency) and auditing frameworks for trustworthy health LLMs.</p>
+      </div>
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px">
+        <p style="margin:0 0 8px; font-family:'IBM Plex Mono', monospace; font-size:12px; color:#14606b; letter-spacing:0.06em; text-transform:uppercase">Building &amp; adapting LLMs</p>
+        <p style="margin:0; font-size:14.5px; line-height:1.6; color:#4b4a45">LoRA/PEFT fine-tuning, quantization, RLHF, RAG, and cascaded pipelines for grounded clinical question answering.</p>
+      </div>
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px">
+        <p style="margin:0 0 8px; font-family:'IBM Plex Mono', monospace; font-size:12px; color:#14606b; letter-spacing:0.06em; text-transform:uppercase">Agentic AI for health consumers</p>
+        <p style="margin:0; font-size:14.5px; line-height:1.6; color:#4b4a45">Agent-based systems that audit, critique, and rewrite AI health answers before they reach patients, closing the loop from detection of unsafe or unempathetic responses to corrective action.</p>
+      </div>
+    </div>
+
+    <div style="display:flex; flex-wrap:wrap; gap:8px; margin-top:28px">
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">Python</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">PyTorch</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">HuggingFace Transformers</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">LoRA / PEFT</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">RLHF</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">RAG</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">TensorFlow</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">scikit-learn</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">SQL</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">Docker</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">AWS</span>
+      <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">GCP / Vertex AI</span>
+    </div>
+  </section>
+
+  <!-- ===== Experience & Education ===== -->
+  <section id="experience" data-screen-label="Experience" style="max-width:1080px; margin:0 auto; padding:64px 28px 8px">
+    <h2 style="margin:0 0 28px; font-family:'Source Serif 4', serif; font-size:28px; font-weight:700">Experience &amp; Education</h2>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(400px, 1fr)); gap:48px">
+
+      <div>
+        <p style="margin:0 0 18px; font-family:'IBM Plex Mono', monospace; font-size:12px; color:#6b6963; letter-spacing:0.08em; text-transform:uppercase">Experience</p>
+        <div style="display:flex; flex-direction:column; gap:0">
+          <div style="border-left:2px solid #d3dfe0; padding:0 0 28px 22px; position:relative">
+            <div style="position:absolute; left:-6px; top:4px; width:10px; height:10px; border-radius:50%; background:#14606b"></div>
+            <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap">
+              <h3 style="margin:0; font-size:16.5px; font-weight:600">Graduate Research Assistant</h3>
+              <span style="font-size:13px; color:#6b6963; flex:none">Spring 2025 – Present</span>
+            </div>
+            <p style="margin:3px 0 8px; font-size:14px; color:#14606b; font-weight:500">Care Research Lab, UMBC</p>
+            <p style="margin:0; font-size:14px; line-height:1.6; color:#4b4a45">Lead ML/NLP research on a Google Society-Centered AI grant, a participatory AI framework helping underserved patients use their medical records. Contribute to an NIH/NIMHD-funded social engagement support system, evaluating outcomes across demographic and geographic subgroups.</p>
+          </div>
+          <div style="border-left:2px solid #d3dfe0; padding:0 0 4px 22px; position:relative">
+            <div style="position:absolute; left:-6px; top:4px; width:10px; height:10px; border-radius:50%; background:#8fb3b8"></div>
+            <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap">
+              <h3 style="margin:0; font-size:16.5px; font-weight:600">Graduate Teaching Assistant</h3>
+              <span style="font-size:13px; color:#6b6963; flex:none">Spring 2023 – Fall 2024</span>
+            </div>
+            <p style="margin:3px 0 8px; font-size:14px; color:#14606b; font-weight:500">Department of Information Systems, UMBC</p>
+            <p style="margin:0; font-size:14px; line-height:1.6; color:#4b4a45">Taught and supported courses of 36–200 students in databases, systems, and management science; led grading, course development, and tutoring.</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <p style="margin:0 0 18px; font-family:'IBM Plex Mono', monospace; font-size:12px; color:#6b6963; letter-spacing:0.08em; text-transform:uppercase">Education</p>
+        <div style="display:flex; flex-direction:column; gap:0">
+          <div style="border-left:2px solid #d3dfe0; padding:0 0 22px 22px; position:relative">
+            <div style="position:absolute; left:-6px; top:4px; width:10px; height:10px; border-radius:50%; background:#14606b"></div>
+            <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap">
+              <h3 style="margin:0; font-size:16.5px; font-weight:600">Ph.D. in Information Systems</h3>
+              <span style="font-size:13px; color:#6b6963; flex:none">2022 – Present</span>
+            </div>
+            <p style="margin:3px 0 0; font-size:14px; color:#4b4a45">University of Maryland, Baltimore County &middot; expected 2027</p>
+          </div>
+          <div style="border-left:2px solid #d3dfe0; padding:0 0 22px 22px; position:relative">
+            <div style="position:absolute; left:-6px; top:4px; width:10px; height:10px; border-radius:50%; background:#8fb3b8"></div>
+            <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap">
+              <h3 style="margin:0; font-size:16.5px; font-weight:600">M.S. in Information Systems</h3>
+              <span style="font-size:13px; color:#6b6963; flex:none">2022 – 2024</span>
+            </div>
+            <p style="margin:3px 0 0; font-size:14px; color:#4b4a45">University of Maryland, Baltimore County</p>
+          </div>
+          <div style="border-left:2px solid #d3dfe0; padding:0 0 22px 22px; position:relative">
+            <div style="position:absolute; left:-6px; top:4px; width:10px; height:10px; border-radius:50%; background:#8fb3b8"></div>
+            <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap">
+              <h3 style="margin:0; font-size:16.5px; font-weight:600">M.Sc. in Electrical &amp; Electronic Engineering</h3>
+              <span style="font-size:13px; color:#6b6963; flex:none">2015 – 2017</span>
+            </div>
+            <p style="margin:3px 0 0; font-size:14px; color:#4b4a45">University of Dhaka, Bangladesh</p>
+          </div>
+          <div style="border-left:2px solid #d3dfe0; padding:0 0 4px 22px; position:relative">
+            <div style="position:absolute; left:-6px; top:4px; width:10px; height:10px; border-radius:50%; background:#8fb3b8"></div>
+            <div style="display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap">
+              <h3 style="margin:0; font-size:16.5px; font-weight:600">B.Sc. in Electrical &amp; Electronic Engineering</h3>
+              <span style="font-size:13px; color:#6b6963; flex:none">2011 – 2015</span>
+            </div>
+            <p style="margin:3px 0 0; font-size:14px; color:#4b4a45">University of Dhaka, Bangladesh</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== News ===== -->
+  <section id="news" data-screen-label="News" style="max-width:1080px; margin:0 auto; padding:64px 28px 8px">
+    <h2 style="margin:0 0 22px; font-family:'Source Serif 4', serif; font-size:28px; font-weight:700">Recent News</h2>
+    <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; overflow:hidden">
+      <div style="display:flex; gap:20px; padding:16px 24px; border-bottom:1px solid #efede8">
+        <span style="font-family:'IBM Plex Mono', monospace; font-size:13px; color:#6b6963; flex:none; width:80px">Jun 2026</span>
+        <p style="margin:0; font-size:14.5px; line-height:1.6; color:#37362f">Paper accepted at the <strong>AMIA 2026 Annual Symposium</strong>: comparing human and LLM responses to patients' online questions for multi-dimensional patient-centered support.</p>
+      </div>
+      <div style="display:flex; gap:20px; padding:16px 24px; border-bottom:1px solid #efede8">
+        <span style="font-family:'IBM Plex Mono', monospace; font-size:13px; color:#6b6963; flex:none; width:80px">May 2026</span>
+        <p style="margin:0; font-size:14.5px; line-height:1.6; color:#37362f"><strong>1st place</strong>, Subtask 1 (Question Interpretation) at the <strong>ArchEHR-QA 2026</strong> shared task, organized by NLM/NIH (CL4Health @ LREC 2026), with the HealthNLP Retrievers team.</p>
+      </div>
+      <div style="display:flex; gap:20px; padding:16px 24px">
+        <span style="font-family:'IBM Plex Mono', monospace; font-size:13px; color:#6b6963; flex:none; width:80px">Apr 2026</span>
+        <p style="margin:0; font-size:14.5px; line-height:1.6; color:#37362f">Received the <strong>COEIT Research Day Student Award</strong> at UMBC.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Publications ===== -->
+  <section id="publications" data-screen-label="Publications" style="max-width:1080px; margin:0 auto; padding:64px 28px 8px">
+    <h2 style="margin:0 0 26px; font-family:'Source Serif 4', serif; font-size:28px; font-weight:700">Featured Publications</h2>
+    <div style="display:flex; flex-direction:column; gap:16px">
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:20px 22px; display:flex; gap:22px; align-items:flex-start">
+        <div style="flex:1; min-width:320px">
+          <div style="display:flex; gap:8px; margin-bottom:8px; flex-wrap:wrap">
+            <span style="background:#14606b; color:#ffffff; font-size:11.5px; font-weight:600; padding:3px 10px; border-radius:4px; letter-spacing:0.03em">AMIA 2026</span>
+            <span style="background:#eef4f4; color:#0f3d44; font-size:11.5px; font-weight:600; padding:3px 10px; border-radius:4px">Accepted</span>
+          </div>
+          <h3 style="margin:0 0 6px; font-family:'Source Serif 4', serif; font-size:18px; font-weight:600; line-height:1.4; text-wrap:pretty">Comparing Human and Large Language Model Responses to Patients' Online Questions: Towards Multi-dimensional Patient-centered Support</h3>
+          <p style="margin:0; font-size:13.5px; color:#6b6963"><strong style="color:#37362f">Hussein MA</strong>, Doshi R, He L, Reynolds TL &middot; AMIA Annual Symposium Proceedings, 2026</p>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:20px 22px; display:flex; gap:22px; align-items:flex-start">
+        <div style="flex:1; min-width:320px">
+          <div style="display:flex; gap:8px; margin-bottom:8px; flex-wrap:wrap">
+            <span style="background:#14606b; color:#ffffff; font-size:11.5px; font-weight:600; padding:3px 10px; border-radius:4px; letter-spacing:0.03em">CL4Health @ LREC 2026</span>
+            <span style="background:#f4ecdd; color:#7a5a17; font-size:11.5px; font-weight:600; padding:3px 10px; border-radius:4px">1st place, Subtask 1</span>
+          </div>
+          <h3 style="margin:0 0 6px; font-family:'Source Serif 4', serif; font-size:18px; font-weight:600; line-height:1.4; text-wrap:pretty">HealthNLP Retrievers at ArchEHR-QA 2026: Cascaded LLM Pipeline for Grounded Clinical Question Answering</h3>
+          <p style="margin:0; font-size:13.5px; color:#6b6963">HealthNLP Retrievers team (incl. <strong style="color:#37362f">Hussein MA</strong>) &middot; NLM/NIH-organized shared task, 2026</p>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:20px 22px; display:flex; gap:22px; align-items:flex-start">
+        <div style="flex:1; min-width:320px">
+          <div style="display:flex; gap:8px; margin-bottom:8px; flex-wrap:wrap">
+            <span style="background:#14606b; color:#ffffff; font-size:11.5px; font-weight:600; padding:3px 10px; border-radius:4px; letter-spacing:0.03em">ICMLA 2026</span>
+            <span style="background:#f0efec; color:#6b6963; font-size:11.5px; font-weight:600; padding:3px 10px; border-radius:4px">Under review</span>
+          </div>
+          <h3 style="margin:0 0 6px; font-family:'Source Serif 4', serif; font-size:18px; font-weight:600; line-height:1.4; text-wrap:pretty">TriAudit: Auditing and Improving Trustworthy LLMs for Health Consumers</h3>
+          <p style="margin:0 0 8px; font-size:13.5px; color:#6b6963"><strong style="color:#37362f">Hussein MA</strong> et al. &middot; Submitted to ICMLA, 2026</p>
+          <p style="margin:0; font-size:13.5px; line-height:1.6; color:#4b4a45; text-wrap:pretty">A closed-loop auditing pipeline that scores AI health answers for safety, empathy, and clinical sycophancy against anchored rubrics, then rewrites detected failures with a full audit trail. Applied to 1,199 responses from five LLMs, it reveals a Safety&ndash;Empathy&ndash;Literacy&ndash;Sycophancy quadrilemma: no model excels on all four.</p>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:20px 22px; display:flex; gap:22px; align-items:flex-start">
+        <div style="flex:1; min-width:320px">
+          <div style="display:flex; gap:8px; margin-bottom:8px; flex-wrap:wrap">
+            <span style="background:#14606b; color:#ffffff; font-size:11.5px; font-weight:600; padding:3px 10px; border-radius:4px; letter-spacing:0.03em">ICMLA 2026</span>
+            <span style="background:#f0efec; color:#6b6963; font-size:11.5px; font-weight:600; padding:3px 10px; border-radius:4px">Under review</span>
+          </div>
+          <h3 style="margin:0 0 6px; font-family:'Source Serif 4', serif; font-size:18px; font-weight:600; line-height:1.4; text-wrap:pretty">Beyond the Visual Shortcut: Confound-Controlled Multimodal Drug-Sale Intent Detection on Instagram</h3>
+          <p style="margin:0 0 8px; font-size:13.5px; color:#6b6963"><strong style="color:#37362f">Hussein MA</strong> et al. &middot; Submitted to ICMLA, 2026</p>
+          <p style="margin:0; font-size:13.5px; line-height:1.6; color:#4b4a45; text-wrap:pretty">Shows that reported gains from multimodal fusion are partly a labeling artifact: a confound-controlled 2&times;2 benchmark reveals the image channel alone collapses once the visual shortcut is removed, and cross-attention fusion is the only model reliable across all cells.</p>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:20px 22px; display:flex; gap:22px; align-items:flex-start">
+        <div style="flex:1; min-width:320px">
+          <div style="display:flex; gap:8px; margin-bottom:8px; flex-wrap:wrap">
+            <span style="background:#14606b; color:#ffffff; font-size:11.5px; font-weight:600; padding:3px 10px; border-radius:4px; letter-spacing:0.03em">IEEE QPAIN 2025</span>
+          </div>
+          <h3 style="margin:0 0 6px; font-family:'Source Serif 4', serif; font-size:18px; font-weight:600; line-height:1.4; text-wrap:pretty">From Code to Career: Assessing Competitive Programmers for Industry Placement</h3>
+          <p style="margin:0; font-size:13.5px; color:#6b6963">Co-author &middot; IEEE QPAIN, 2025</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects" data-screen-label="Projects" style="max-width:1080px; margin:0 auto; padding:64px 28px 8px">
+    <h2 style="margin:0 0 26px; font-family:'Source Serif 4', serif; font-size:28px; font-weight:700">Selected Projects</h2>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(300px, 1fr)); gap:18px">
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px; display:flex; flex-direction:column; gap:10px">
+        <div style="display:flex; justify-content:space-between; gap:12px; align-items:baseline">
+          <h3 style="margin:0; font-size:16.5px; font-weight:600">Participatory AI Engagement in Hard-to-Reach Populations</h3>
+          <span style="font-family:'IBM Plex Mono', monospace; font-size:12px; color:#6b6963; flex:none">2025 –</span>
+        </div>
+        <p style="margin:0; font-size:14px; line-height:1.6; color:#4b4a45; flex:1">Leading development of a participatory AI framework and toolkit that empowers underserved patients in low-income areas to understand and use their medical records, in collaboration with Baltimore community health organizations. Funded by the Google Society-Centered AI Grant. Target: CHI 2027.</p>
+        <div style="display:flex; flex-wrap:wrap; gap:6px">
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Participatory AI</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Health literacy</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Google grant</span>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px; display:flex; flex-direction:column; gap:10px">
+        <div style="display:flex; justify-content:space-between; gap:12px; align-items:baseline">
+          <h3 style="margin:0; font-size:16.5px; font-weight:600">Social Engagement Support System</h3>
+          <span style="font-family:'IBM Plex Mono', monospace; font-size:12px; color:#6b6963; flex:none">2025 –</span>
+        </div>
+        <p style="margin:0; font-size:14px; line-height:1.6; color:#4b4a45; flex:1">Development, implementation, and rigorous evaluation of a social needs intervention protocol, assessing health and social outcomes across demographic and geographic subgroups. Funded by NIH/NIMHD.</p>
+        <div style="display:flex; flex-wrap:wrap; gap:6px">
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Intervention evaluation</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">NIH/NIMHD</span>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px; display:flex; flex-direction:column; gap:10px">
+        <div style="display:flex; justify-content:space-between; gap:12px; align-items:baseline">
+          <h3 style="margin:0; font-size:16.5px; font-weight:600">Patient-centered Evaluation of LLM-generated Responses</h3>
+          <span style="font-family:'IBM Plex Mono', monospace; font-size:12px; color:#6b6963; flex:none">2025 – 26</span>
+        </div>
+        <p style="margin:0; font-size:14px; line-height:1.6; color:#4b4a45; flex:1">Evaluated LLMs on patient-centered responses to laboratory-test questions across readability, completeness, personalization, transparency, and emotional support, compared against an online health community. Accepted, AMIA 2026.</p>
+        <div style="display:flex; flex-wrap:wrap; gap:6px">
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">LLM evaluation</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">AMIA 2026</span>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px; display:flex; flex-direction:column; gap:10px">
+        <div style="display:flex; justify-content:space-between; gap:12px; align-items:baseline">
+          <h3 style="margin:0; font-size:16.5px; font-weight:600">Patient-facing AI: A Systematic Review</h3>
+          <span style="font-family:'IBM Plex Mono', monospace; font-size:12px; color:#6b6963; flex:none">2025 –</span>
+        </div>
+        <p style="margin:0; font-size:14px; line-height:1.6; color:#4b4a45; flex:1">Systematic review of patient-facing AI: current methods, intended uses, and sociotechnical implications, identifying trends, challenges, and research opportunities. Manuscript in preparation.</p>
+        <div style="display:flex; flex-wrap:wrap; gap:6px">
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Systematic review</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Patient-centered AI</span>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px; display:flex; flex-direction:column; gap:10px">
+        <div style="display:flex; justify-content:space-between; gap:12px; align-items:baseline">
+          <h3 style="margin:0; font-size:16.5px; font-weight:600">QnA: Conversational Agent for Colorectal Cancer Knowledge</h3>
+          <span style="font-family:'IBM Plex Mono', monospace; font-size:12px; color:#6b6963; flex:none">2024</span>
+        </div>
+        <p style="margin:0; font-size:14px; line-height:1.6; color:#4b4a45; flex:1">Fine-tuned LLaMA-2 7B Chat on 1M+ online health-community posts for accurate, empathetic domain answers, with 4-bit quantization + LoRA to cut compute cost.</p>
+        <div style="display:flex; flex-wrap:wrap; gap:6px">
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">LLaMA-2</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">LoRA</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Quantization</span>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px; display:flex; flex-direction:column; gap:10px">
+        <div style="display:flex; justify-content:space-between; gap:12px; align-items:baseline">
+          <h3 style="margin:0; font-size:16.5px; font-weight:600">TriAudit: Auditing and Improving Trustworthy LLMs for Health Consumers</h3>
+          <span style="font-family:'IBM Plex Mono', monospace; font-size:12px; color:#6b6963; flex:none">2026</span>
+        </div>
+        <p style="margin:0; font-size:14px; line-height:1.6; color:#4b4a45; flex:1">Rubric-driven, explainable auditing of safety, empathy, and sycophancy in AI health answers, with corrective rewriting (RACR) and a preserved audit trail. Submitted to ICMLA 2026.</p>
+        <div style="display:flex; flex-wrap:wrap; gap:6px">
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">LLM-as-a-judge</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Trust &amp; safety</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Agentic rewriting</span>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px; display:flex; flex-direction:column; gap:10px">
+        <div style="display:flex; justify-content:space-between; gap:12px; align-items:baseline">
+          <h3 style="margin:0; font-size:16.5px; font-weight:600">From Data to Topography: Deep Learning for Ice-Bed Prediction</h3>
+          <span style="font-family:'IBM Plex Mono', monospace; font-size:12px; color:#6b6963; flex:none">2023</span>
+        </div>
+        <p style="margin:0; font-size:14px; line-height:1.6; color:#4b4a45; flex:1">Dense + LSTM model predicting Greenland's ice-bed topography from sparse satellite data, outperforming traditional ML baselines.</p>
+        <div style="display:flex; flex-wrap:wrap; gap:6px">
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">LSTM</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Remote sensing</span>
+        </div>
+      </div>
+
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:22px 24px; display:flex; flex-direction:column; gap:10px">
+        <div style="display:flex; justify-content:space-between; gap:12px; align-items:baseline">
+          <h3 style="margin:0; font-size:16.5px; font-weight:600">Detecting Fraudulent Job Postings with NLP</h3>
+          <span style="font-family:'IBM Plex Mono', monospace; font-size:12px; color:#6b6963; flex:none">2022</span>
+        </div>
+        <p style="margin:0; font-size:14px; line-height:1.6; color:#4b4a45; flex:1">NLP classifier over a 17,880-record dataset using Multinomial Naive Bayes, KNN, and SVM to flag deceptive job ads.</p>
+        <div style="display:flex; flex-wrap:wrap; gap:6px">
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">NLP</span>
+          <span style="border:1px solid #d3dfe0; color:#14606b; font-size:11.5px; font-weight:500; padding:3px 9px; border-radius:999px">Classification</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== Mentoring ===== -->
+  <section id="mentoring" data-screen-label="Mentoring" style="max-width:1080px; margin:0 auto; padding:64px 28px 8px">
+    <h2 style="margin:0 0 22px; font-family:'Source Serif 4', serif; font-size:28px; font-weight:700">Research Mentoring</h2>
+    <div style="display:flex; flex-direction:column; gap:16px">
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:20px 24px">
+        <h3 style="margin:0 0 6px; font-size:16px; font-weight:600; line-height:1.4">Participatory AI Engagement in Hard-to-Reach Populations</h3>
+        <p style="margin:0 0 10px; font-size:13.5px; color:#6b6963">Google Society-Centered AI Grant &middot; Target: CHI 2027</p>
+        <div style="display:flex; flex-wrap:wrap; gap:8px">
+          <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">Sanika Bishnoi</span>
+          <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">Yachi Jitendrabhai Patel</span>
+          <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">John Lee</span>
+          <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">Rushali Sreedhar</span>
+          <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">Ami Mundra</span>
+          <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">Samon Nguyen</span>
+        </div>
+      </div>
+      <div style="background:#ffffff; border:1px solid #e7e5e0; border-radius:10px; padding:20px 24px">
+        <h3 style="margin:0 0 6px; font-size:16px; font-weight:600; line-height:1.4">Patient-facing AI: Current Status, Challenges, and Opportunities. A Systematic Review</h3>
+        <p style="margin:0 0 10px; font-size:13.5px; color:#6b6963">Manuscript in preparation</p>
+        <div style="display:flex; flex-wrap:wrap; gap:8px">
+          <span style="background:#eef4f4; color:#0f3d44; font-size:12.5px; font-weight:500; padding:5px 12px; border-radius:999px">Austyn Nguyen</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Awards ===== -->
+  <section id="awards" data-screen-label="Awards" style="max-width:1080px; margin:0 auto; padding:64px 28px 80px">
+    <h2 style="margin:0 0 22px; font-family:'Source Serif 4', serif; font-size:28px; font-weight:700">Awards &amp; Honors</h2>
+    <div style="display:flex; flex-direction:column; gap:12px">
+      <div style="display:flex; gap:18px; align-items:baseline">
+        <span style="font-family:'IBM Plex Mono', monospace; font-size:13px; color:#14606b; flex:none; width:44px; font-weight:500">2026</span>
+        <p style="margin:0; font-size:15px; line-height:1.6; color:#37362f"><strong>1st Place</strong>, Subtask 1 (Question Interpretation), ArchEHR-QA 2026 Shared Task, organized by NLM/NIH</p>
+      </div>
+      <div style="display:flex; gap:18px; align-items:baseline">
+        <span style="font-family:'IBM Plex Mono', monospace; font-size:13px; color:#14606b; flex:none; width:44px; font-weight:500">2026</span>
+        <p style="margin:0; font-size:15px; line-height:1.6; color:#37362f">COEIT Research Day Student Award, UMBC</p>
+      </div>
+      <div style="display:flex; gap:18px; align-items:baseline">
+        <span style="font-family:'IBM Plex Mono', monospace; font-size:13px; color:#14606b; flex:none; width:44px; font-weight:500">2025</span>
+        <p style="margin:0; font-size:15px; line-height:1.6; color:#37362f">Honorable Mention, COEIT Research Day Student Award, UMBC</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer data-screen-label="Footer" style="border-top:1px solid #e7e5e0; background:#ffffff">
+    <div style="max-width:1080px; margin:0 auto; padding:28px; display:flex; flex-wrap:wrap; gap:16px; align-items:center; justify-content:space-between">
+      <p style="margin:0; font-size:13.5px; color:#6b6963">&copy; 2026 Md Alomgeer Hussein &middot; San Francisco, CA</p>
+      <div style="display:flex; gap:18px; font-size:13.5px; font-weight:500">
+        <a href="mailto:mdalomh1@umbc.edu" style="color:#6b6963; text-decoration:none" style-hover="color:#14606b">Email</a>
+        <a href="https://github.com/mdalomgeer" target="_blank" style="color:#6b6963; text-decoration:none" style-hover="color:#14606b">GitHub</a>
+        <a href="https://scholar.google.com/citations?user=bftKphkAAAAJ&hl=en" target="_blank" style="color:#6b6963; text-decoration:none" style-hover="color:#14606b">Google Scholar</a>
+        <a href="https://www.linkedin.com/in/alomgeer/" target="_blank" style="color:#6b6963; text-decoration:none" style-hover="color:#14606b">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{
+  &quot;showAvailabilityBanner&quot;: { &quot;editor&quot;: &quot;boolean&quot;, &quot;default&quot;: true, &quot;tsType&quot;: &quot;boolean&quot;, &quot;section&quot;: &quot;Sections&quot; }
+}">
+class Component extends DCLogic {
+  renderVals() {
+    return {
+      showBanner: this.props.showAvailabilityBanner ?? true,
+    };
+  }
+}
+</script>
+</body>
+</html>
